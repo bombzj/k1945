@@ -1,0 +1,72 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>k1945</title>
+<meta name=viewport content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0, width=device-width,minimal-ui">
+</head>
+<script src="lib/sound.js"></script>
+
+<script src="core/const.js"></script>
+<script src="core/calcDir.js"></script>
+<script src="core/displayLayer.js"></script>
+<script src="core/model.js"></script>
+
+<script src="core/object.js"></script>
+<script src="core/backgroundobject.js"></script>
+<script src="core/airplane.js"></script>
+<script src="core/groundobject.js"></script>
+<script src="core/bullet.js"></script>
+<script src="core/aimbullet.js"></script>
+<script src="core/container.js"></script>
+<script src="core/expaimbullet.js"></script>
+
+<script src="core/tracer_object.js"></script>
+<script src="core/geardown.js"></script>
+<script src="core/bigtracertobject.js"></script>
+<script src="core/pickup_object.js"></script>
+
+<script src="core/trackobject.js"></script>
+<script src="core/groundTrackObject.js"></script>
+<script src="core/bigobject.js"></script>
+<script src="core/blastobject.js"></script>
+<script src="core/playerselectobject.js"></script>
+<script src="core/player.js"></script>
+<script src="core/player_data.js"></script>
+
+<script src="core/startstageobject.js"></script>
+<script src="core/clearstageobject.js"></script>
+<script src="core/playermanager.js"></script>
+<script src="core/manager.js"></script>
+<body style="overflow:hidden;overflow-y:hidden;margin:0;background-color:black;">
+<div id="left" style="position: absolute; background: transparent; left: 8%"></div>
+<div id="right" style="position: absolute; background: transparent; left: 60%"></div>
+<canvas id="canvas" width="224" height="360" style="margin:0px"></canvas>
+
+<script type="text/javascript">
+  var jsbutton = true;
+  
+  // full screen
+  let [width,height] = [document.documentElement.clientWidth,document.documentElement.clientHeight];
+  let ratio = Const.SCR_WIDTH / Const.SCR_HEIGHT;
+  if(width / height > ratio)
+	  width = Math.floor(height * ratio)
+  else
+	  height = Math.floor(width / ratio)
+  let scale = width / Const.SCR_WIDTH;
+
+  canvas.style = `width:${width}px;height:${height}px;`;
+
+  Const.game = new manager();
+
+
+  window.addEventListener("keydown", function (event) {
+    Const.game.keyEvent("keydown", event.code)
+  }, false);
+  window.addEventListener("keyup", function (event) {
+    Const.game.keyEvent("keyup", event.code)
+  }, false);
+
+  
+</script>
+</body>
+</html>

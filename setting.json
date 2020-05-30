@@ -1,0 +1,21 @@
+{
+	"Player1": {
+	  "up": "KeyW",
+	  "down": "KeyS",
+	  "left": "KeyA",
+	  "right": "KeyD",
+	  "keyA": "KeyU",
+	  "keyB": "KeyI",
+	  "keyS": "Digit1"
+	},
+	"Player2": {
+	  "up": "ArrowUp",
+	  "down": "ArrowDown",
+	  "left": "ArrowLeft",
+	  "right": "ArrowRight",
+	  "keyA": "Numpad1",
+	  "keyB": "Numpad2",
+	  "keyS": "Digit2"
+	},
+	"stage": ["stage1"]
+}

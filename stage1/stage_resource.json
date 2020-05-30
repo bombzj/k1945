@@ -1,0 +1,1485 @@
+{
+  "audio": {},
+  "bbullet1": {
+    "image": {
+      "file": "bbullet1.png"
+    },
+    "rect_list": [
+      "0:0:16:16:::4:4"
+    ]
+  },
+  "bbullet2": {
+    "image": {
+      "file": "bbullet2.png"
+    },
+    "rect_list": [
+      "0:0:16:16:::4:4"
+    ]
+  },
+  "bbullet3": {
+    "image": {
+      "file": "bbullet3.png"
+    },
+    "rect_list": [
+      "0:0:16:16:::4:2",
+      "0:0:16:16:::4:2"
+    ]
+  },
+  "bg": {
+    "image": {
+      "file": "bg.jpg"
+    },
+    "rect_list": [
+      "0:0:224:1840"
+    ],
+    "sound_list": [
+      "bg4.wav:0"
+    ]
+  },
+  "bigplane": {
+    "image": {
+      "file": "bigplane.png",
+      "interval": "3",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "0:0:63:44",
+      "63:0:63:44"
+    ]
+  },
+  "bigplane2": {
+    "image": {
+      "file": "bigplane2.png",
+      "interval": "3",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "0:0:93:64",
+      "93:0:93:64"
+    ]
+  },
+  "blast": {
+    "image": {
+      "file": "blast.png",
+      "count_per_dir": "10"
+    },
+    "rect_list": [
+      "0:0:54:50",
+      "54:0:54:50",
+      "108:0:54:50",
+      "162:0:54:50",
+      "216:0:54:50",
+      "270:0:54:50",
+      "324:0:54:50",
+      "378:0:54:50",
+      "432:0:54:50",
+      "486:0:54:50"
+    ],
+    "sound_list": [
+      "blast.wav:2"
+    ]
+  },
+  "blast2": {
+    "image": {
+      "file": "blast2.png",
+      "count_per_dir": "8"
+    },
+    "rect_list": [
+      "0:0:14:41:7:6",
+      "14:0:14:41:7:15",
+      "28:0:14:41:7:26",
+      "42:0:14:41:7:29",
+      "56:0:14:41:7:34",
+      "70:0:14:41:7:39",
+      "84:0:14:41:7:39",
+      "98:0:14:41:7:39"
+    ],
+    "sound_list": [
+      "getshot.wav:1"
+    ]
+  },
+  "blast3": {
+    "image": {
+      "file": "blast3.png",
+      "interval": "2",
+      "count_per_dir": "16"
+    },
+    "rect_list": [
+      "0:0:64:64:::4:4"
+    ],
+    "sound_list": [
+      "blast3.wav:2"
+    ]
+  },
+  "blast4": {
+    "image": {
+      "file": "blast4.png",
+      "interval": "2",
+      "count_per_dir": "15"
+    },
+    "rect_list": [
+      "0:0:48:48:::5:3"
+    ],
+    "sound_list": [
+      "blast.wav:2"
+    ]
+  },
+  "blast5": {
+    "image": {
+      "file": "blast5.png",
+      "interval": "2",
+      "count_per_dir": "15"
+    },
+    "rect_list": [
+      "0:0:112:112:::4:4"
+    ],
+    "sound_list": [
+      "blast3.wav:2"
+    ]
+  },
+  "blast6": {
+    "image": {
+      "file": "blast6.png",
+      "interval": "2",
+      "count_per_dir": "18"
+    },
+    "rect_list": [
+      "0:0:0:0:::8:1",
+      "0:0:128:128:::5:2"
+    ]
+  },
+  "bomb": {
+    "image": {
+      "file": "bomb.png",
+      "interval": "2",
+      "count_per_dir": "12"
+    },
+    "rect_list": [
+      "00:00:50:50:25:25:4:3"
+    ]
+  },
+  "bomb1": {
+    "image": {
+      "file": "bomb1.png",
+      "interval": "3",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "0:0:128:48:::1:2"
+    ]
+  },
+  "bomb2": {
+    "image": {
+      "file": "bomb2.png",
+      "interval": "3",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "0:0:192:144:::1:2"
+    ]
+  },
+  "bomb31": {
+    "image": {
+      "file": "bomb31.png",
+      "interval": "1",
+      "count_per_dir": "32"
+    },
+    "rect_list": [
+      "0:0:32:112:::8:4"
+    ]
+  },
+  "bomb32": {
+    "image": {
+      "file": "bomb32.png",
+      "interval": "1",
+      "count_per_dir": "32"
+    },
+    "rect_list": [
+      "0:0:80:80:::8:4"
+    ]
+  },
+  "boss": {
+    "image": {
+      "file": "boss.png",
+      "interval": "3",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "0:0:320:224:::2:1"
+    ]
+  },
+  "boss12": {
+    "image": {
+      "file": "boss12.png",
+      "interval": "3",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "0:0:320:192:::2:1"
+    ]
+  },
+  "boss13": {
+    "image": {
+      "file": "boss13.png"
+    },
+    "rect_list": [
+      "0:0:160:200:::5:1",
+      "0:200:256:160:::3:1",
+      "0:360:256:160:::3:1",
+      "0:520:256:160:::3:1"
+    ]
+  },
+  "boss14": {
+    "image": {
+      "file": "boss14.png",
+      "interval": "2",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "0:0:128:128:::2:1"
+    ]
+  },
+  "boss1wingbl": {
+    "image": {
+      "file": "boss1wingbl.png",
+      "interval": "3",
+      "count_per_dir": "1"
+    },
+    "rect_list": [
+      "0:0:112:48"
+    ]
+  },
+  "boss1wingbr": {
+    "image": {
+      "file": "boss1wingbr.png",
+      "interval": "3",
+      "count_per_dir": "1"
+    },
+    "rect_list": [
+      "0:0:112:48"
+    ]
+  },
+  "boss1wp1l": {
+    "image": {
+      "file": "boss1wp1l.png"
+    },
+    "rect_list": [
+      "0:0:32:16:::5:1"
+    ]
+  },
+  "boss1wp1r": {
+    "image": {
+      "file": "boss1wp1r.png"
+    },
+    "rect_list": [
+      "0:0:32:16:::5:1"
+    ]
+  },
+  "boss1wp2l": {
+    "image": {
+      "file": "boss1wp2l.png"
+    },
+    "rect_list": [
+      "0:0:32:32:::6:1"
+    ]
+  },
+  "boss1wp2r": {
+    "image": {
+      "file": "boss1wp2r.png"
+    },
+    "rect_list": [
+      "1:0:32:32:::6:1"
+    ]
+  },
+  "bosssh": {
+    "image": {
+      "file": "bosssh.png"
+    },
+    "rect_list": [
+      "0:0:119:74"
+    ]
+  },
+  "bubble0": {
+    "image": {
+      "file": "bubble0.png",
+      "interval": "3",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "0:0:11:8",
+      "0:8:11:8"
+    ]
+  },
+  "bubble1": {
+    "image": {
+      "file": "bubble1.png",
+      "interval": "3",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "0:0:11:8",
+      "0:8:11:8"
+    ]
+  },
+  "bubble2": {
+    "image": {
+      "file": "bubble2.png",
+      "interval": "3",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "0:0:13:8",
+      "0:8:13:8"
+    ]
+  },
+  "bubble3": {
+    "image": {
+      "file": "bubble3.png",
+      "interval": "3",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "0:0:15:8",
+      "0:8:15:8"
+    ]
+  },
+  "bubble4": {
+    "image": {
+      "file": "bubble4.png",
+      "interval": "3",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "0:0:15:8",
+      "0:8:15:8"
+    ]
+  },
+  "bubble5": {
+    "image": {
+      "file": "bubble5.png",
+      "interval": "3",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "0:0:16:9",
+      "0:9:16:9"
+    ]
+  },
+  "bubble6": {
+    "image": {
+      "file": "bubble6.png",
+      "interval": "3",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "0:0:30:13",
+      "0:13:30:13"
+    ]
+  },
+  "bullet": {
+    "image": {
+      "file": "bullet.png",
+      "interval": "2",
+      "count_per_dir": "8"
+    },
+    "rect_list": [
+      "0:0:6:6:3:3:8:1"
+    ]
+  },
+  "bullet2": {
+    "image": {
+      "file": "bullet2.png"
+    },
+    "rect_list": [
+      "0:0:8:8"
+    ]
+  },
+  "bullet3": {
+    "image": {
+      "file": "bullet3.png",
+      "interval": "2",
+      "count_per_dir": "8"
+    },
+    "rect_list": [
+      "0:0:8:8:4:4:8:1"
+    ]
+  },
+  "bullet4": {
+    "image": {
+      "file": "bullet4.png",
+      "interval": "2",
+      "count_per_dir": "8"
+    },
+    "rect_list": [
+      "0:0:12:12:6:6:8:1"
+    ]
+  },
+  "bullet5": {
+    "image": {
+      "file": "bullet5.png",
+      "interval": "4",
+      "count_per_dir": "12"
+    },
+    "rect_list": [
+      "0:0:6:6:3:3:4:3"
+    ]
+  },
+  "bulletblast": {
+    "image": {
+      "file": "bulletblast.png",
+      "interval": "2",
+      "count_per_dir": "6"
+    },
+    "rect_list": [
+      "0:0:16:16:::6:1"
+    ]
+  },
+  "bulletblast2": {
+    "image": {
+      "file": "bulletblast2.png",
+      "interval": "2",
+      "count_per_dir": "6"
+    },
+    "rect_list": [
+      "0:0:16:16:::6:1"
+    ]
+  },
+  "bulletblast3": {
+    "image": {
+      "file": "bulletblast3.png",
+      "interval": "2",
+      "count_per_dir": "5"
+    },
+    "rect_list": [
+      "0:0:16:16:::5:1"
+    ]
+  },
+  "bulletblast4": {
+    "image": {
+      "file": "bulletblast4.png",
+      "interval": "2",
+      "count_per_dir": "8"
+    },
+    "rect_list": [
+      "0:0:16:16:::8:1"
+    ]
+  },
+  "bulletblast5": {
+    "image": {
+      "file": "bulletblast5.png",
+      "interval": "2",
+      "count_per_dir": "10"
+    },
+    "rect_list": [
+      "0:0:32:32:::5:2"
+    ]
+  },
+  "bulletblast6": {
+    "image": {
+      "file": "bulletblast6.png",
+      "interval": "2",
+      "count_per_dir": "10"
+    },
+    "rect_list": [
+      "0:0:16:16:::10:1"
+    ]
+  },
+  "bunk1": {
+    "image": {
+      "file": "bunk1.png"
+    },
+    "rect_list": [
+      "00:00:32:32:::8:4"
+    ]
+  },
+  "bunk2": {
+    "image": {
+      "file": "bunk2.png"
+    },
+    "rect_list": [
+      "00:00:32:32:::8:4"
+    ]
+  },
+  "bunk3": {
+    "image": {
+      "file": "bunk3.png"
+    },
+    "rect_list": [
+      "00:00:32:32:16:16:8:4"
+    ]
+  },
+  "bunk4": {
+    "image": {
+      "file": "bunk4.png"
+    },
+    "rect_list": [
+      "00:00:32:32:16:16:8:4"
+    ]
+  },
+  "enemy": {
+    "image": {
+      "file": "enemy.png",
+      "interval": "1",
+      "count_per_dir": "16"
+    },
+    "rect_list": [
+      "0:0:32:32:::4:4"
+    ]
+  },
+  "enemy10": {
+    "image": {
+      "file": "enemy10.png",
+      "interval": "2",
+      "count_per_dir": "21"
+    },
+    "rect_list": [
+      "0:0:32:32:::7:3"
+    ]
+  },
+  "enemy11": {
+    "image": {
+      "file": "enemy11.png",
+      "interval": "1",
+      "count_per_dir": "8"
+    },
+    "rect_list": [
+      "0:0:32:32:::4:2"
+    ]
+  },
+  "enemy2": {
+    "image": {
+      "file": "enemy2.png",
+      "count_per_dir": "1"
+    },
+    "rect_list": [
+      "0:0:31:23"
+    ]
+  },
+  "enemy3": {
+    "image": {
+      "file": "enemy3.png",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "0:0:62:30",
+      "0:30:62:30"
+    ]
+  },
+  "enemy4": {
+    "image": {
+      "file": "enemy4.png",
+      "interval": "3",
+      "count_per_dir": "16"
+    },
+    "rect_list": [
+      "00:00:25:25:12:12:4:4"
+    ]
+  },
+  "enemy5": {
+    "image": {
+      "file": "enemy5.png",
+      "interval": "3",
+      "count_per_dir": "16"
+    },
+    "rect_list": [
+      "00:00:25:25:12:12:4:4"
+    ]
+  },
+  "enemy6": {
+    "image": {
+      "file": "enemy6.png",
+      "interval": "3",
+      "count_per_dir": "16"
+    },
+    "rect_list": [
+      "00:00:30:25:15:12:4:4"
+    ]
+  },
+  "enemy7": {
+    "image": {
+      "file": "enemy7.png",
+      "interval": "3",
+      "count_per_dir": "1"
+    },
+    "rect_list": [
+      "00:00:31:23",
+      "31:00:31:23",
+      "62:00:31:23",
+      "00:24:31:23",
+      "31:24:31:23",
+      "62:24:31:23",
+      "00:48:31:23",
+      "31:48:31:23",
+      "62:48:31:23",
+      "93:48:31:23",
+      "00:72:31:23",
+      "31:72:31:23",
+      "62:72:31:23",
+      "93:72:31:23",
+      "00:96:31:23",
+      "31:96:31:23",
+      "62:96:31:23",
+      "93:96:31:23",
+      "00:120:31:23",
+      "31:120:31:23",
+      "62:120:31:23",
+      "93:120:31:23"
+    ]
+  },
+  "enemy8": {
+    "image": {
+      "file": "enemy8.png",
+      "interval": "3",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "0:0:48:32:::2:1"
+    ]
+  },
+  "enemy9": {
+    "image": {
+      "file": "enemy9.png",
+      "interval": "3",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "0:0:32:32:::2:1"
+    ]
+  },
+  "gold": {
+    "image": {
+      "file": "gold.png",
+      "interval": "3",
+      "count_per_dir": "8"
+    },
+    "rect_list": [
+      "0:1:16:10:8:5:1:8"
+    ]
+  },
+  "item": {
+    "image": {
+      "file": "item.png",
+      "interval": "3",
+      "count_per_dir": "8"
+    },
+    "rect_list": [
+      "0:0:13:24:6:12:8:1"
+    ]
+  },
+  "item2": {
+    "image": {
+      "file": "item2.png",
+      "interval": "3",
+      "count_per_dir": "8"
+    },
+    "rect_list": [
+      "0:0:14:23:7:11:8:1"
+    ]
+  },
+  "laser": {
+    "image": {
+      "file": "laser.png",
+      "interval": "3",
+      "count_per_dir": "1"
+    },
+    "rect_list": [
+      "0:0:16:16:::8:4",
+      "0:0:16:16:::8:4"
+    ]
+  },
+  "laser2": {
+    "image": {
+      "file": "laser2.png",
+      "interval": "3",
+      "count_per_dir": "1"
+    },
+    "rect_list": [
+      "0:0:32:32:::8:4",
+      "0:0:32:32:::8:4"
+    ]
+  },
+  "lwing": {
+    "image": {
+      "file": "lwing.png"
+    },
+    "rect_list": [
+      "0:0:39:19"
+    ]
+  },
+  "pass": {
+    "image": {
+      "interval": "0",
+      "file": "pass.png"
+    },
+    "rect_list": [
+      "0:0:224:320"
+    ],
+    "sound_list": [
+      "pass.wav:3"
+    ]
+  },
+  "pbullet": {
+    "image": {
+      "file": "pbullet.png"
+    },
+    "rect_list": [
+      "0:0:7:23"
+    ]
+  },
+  "pbullet2": {
+    "image": {
+      "file": "pbullet2.png"
+    },
+    "rect_list": [
+      "0:0:19:25"
+    ]
+  },
+  "pbullet21": {
+    "image": {
+      "file": "pbullet21.png"
+    },
+    "rect_list": [
+      "0:0:7:21"
+    ]
+  },
+  "pbullet22": {
+    "image": {
+      "file": "pbullet22.png"
+    },
+    "rect_list": [
+      "0:0:9:23"
+    ]
+  },
+  "pbullet23": {
+    "image": {
+      "file": "pbullet23.png"
+    },
+    "rect_list": [
+      "0:0:11:32"
+    ]
+  },
+  "pbullet24": {
+    "image": {
+      "file": "pbullet24.png"
+    },
+    "rect_list": [
+      "0:0:17:43"
+    ]
+  },
+  "pbullet3": {
+    "image": {
+      "file": "pbullet3.png"
+    },
+    "rect_list": [
+      "0:0:13:32"
+    ]
+  },
+  "pbullet31": {
+    "image": {
+      "file": "pbullet31.png"
+    },
+    "rect_list": [
+      "0:0:15:16"
+    ]
+  },
+  "pbullet32": {
+    "image": {
+      "file": "pbullet32.png"
+    },
+    "rect_list": [
+      "0:0:13:26"
+    ]
+  },
+  "pbullet33": {
+    "image": {
+      "file": "pbullet33.png"
+    },
+    "rect_list": [
+      "0:0:27:26"
+    ]
+  },
+  "pbullet34": {
+    "image": {
+      "file": "pbullet34.png"
+    },
+    "rect_list": [
+      "0:0:27:32"
+    ]
+  },
+  "pbullet4": {
+    "image": {
+      "file": "pbullet4.png"
+    },
+    "rect_list": [
+      "0:0:29:46"
+    ]
+  },
+  "pbullet41": {
+    "image": {
+      "file": "pbullet41.png"
+    },
+    "rect_list": [
+      "0:0:7:23"
+    ]
+  },
+  "pbullet42": {
+    "image": {
+      "file": "pbullet42.png"
+    },
+    "rect_list": [
+      "0:0:15:26"
+    ]
+  },
+  "pbullet43": {
+    "image": {
+      "file": "pbullet43.png"
+    },
+    "rect_list": [
+      "0:0:21:29"
+    ]
+  },
+  "pbullet44": {
+    "image": {
+      "file": "pbullet44.png"
+    },
+    "rect_list": [
+      "0:0:21:47"
+    ]
+  },
+  "pbullet51": {
+    "image": {
+      "file": "pbullet51.png"
+    },
+    "rect_list": [
+      "0:0:7:21"
+    ]
+  },
+  "pbullet52": {
+    "image": {
+      "file": "pbullet52.png"
+    },
+    "rect_list": [
+      "0:0:15:26"
+    ]
+  },
+  "pbullet53": {
+    "image": {
+      "file": "pbullet53.png"
+    },
+    "rect_list": [
+      "0:0:25:30"
+    ]
+  },
+  "pbullet54": {
+    "image": {
+      "file": "pbullet54.png"
+    },
+    "rect_list": [
+      "0:0:9:23"
+    ]
+  },
+  "pbullet61": {
+    "image": {
+      "file": "pbullet61.png"
+    },
+    "rect_list": [
+      "0:0:7:21"
+    ]
+  },
+  "pbullet62": {
+    "image": {
+      "file": "pbullet62.png"
+    },
+    "rect_list": [
+      "0:0:9:23"
+    ]
+  },
+  "pbullet63": {
+    "image": {
+      "file": "pbullet63.png"
+    },
+    "rect_list": [
+      "0:0:13:32"
+    ]
+  },
+  "pbullet64": {
+    "image": {
+      "file": "pbullet64.png"
+    },
+    "rect_list": [
+      "0:0:20:45"
+    ]
+  },
+  "player": {
+    "image": {
+      "file": "plane.png",
+      "interval": "3",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "0:0:29:24",
+      "0:25:29:24",
+      "58:0:29:24",
+      "58:25:29:24",
+      "116:0:29:24",
+      "116:25:29:24",
+      "0:0:29:24",
+      "0:25:29:24",
+      "58:0:29:24",
+      "58:25:29:24",
+      "116:0:29:24",
+      "116:25:29:24",
+      "0:0:29:24",
+      "0:25:29:24",
+      "58:0:29:24",
+      "58:25:29:24",
+      "116:0:29:24",
+      "116:25:29:24"
+    ],
+    "sound_list": [
+      "shot1.wav:1",
+      "bomb.wav",
+      "powerup.wav",
+      "addbomb.wav",
+      "getgold.wav",
+      "bomb.wav",
+      "charged.wav"
+    ]
+  },
+  "player2": {
+    "image": {
+      "file": "player2.png",
+      "interval": "3",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "0:0:23:22",
+      "0:23:23:22",
+      "46:0:23:22",
+      "46:23:23:22",
+      "92:0:23:22",
+      "92:23:23:22",
+      "0:0:23:22",
+      "0:23:23:22",
+      "46:0:23:22",
+      "46:23:23:22",
+      "92:0:23:22",
+      "92:23:23:22",
+      "0:0:23:22",
+      "0:23:23:22",
+      "46:0:23:22",
+      "46:23:23:22",
+      "92:0:23:22",
+      "92:23:23:22"
+    ],
+    "sound_list": [
+      "shot1.wav:1",
+      "bomb.wav",
+      "powerup.wav",
+      "addbomb.wav",
+      "getgold.wav",
+      "bomb.wav",
+      "charged.wav"
+    ]
+  },
+  "player3": {
+    "image": {
+      "file": "player3.png",
+      "interval": "3",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "0:0:27:22",
+      "0:23:27:22",
+      "54:0:27:22",
+      "54:23:27:22",
+      "108:0:27:22",
+      "108:23:27:22",
+      "0:0:27:22",
+      "0:23:27:22",
+      "54:0:27:22",
+      "54:23:27:22",
+      "108:0:27:22",
+      "108:23:27:22",
+      "0:0:27:22",
+      "0:23:27:22",
+      "54:0:27:22",
+      "54:23:27:22",
+      "108:0:27:22",
+      "108:23:27:22"
+    ],
+    "sound_list": [
+      "shot1.wav:1",
+      "bomb.wav",
+      "powerup.wav",
+      "addbomb.wav",
+      "getgold.wav",
+      "bomb.wav",
+      "charged.wav"
+    ]
+  },
+  "player4": {
+    "image": {
+      "file": "player4.png",
+      "interval": "3",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "0:0:25:22",
+      "0:23:25:22",
+      "50:0:25:22",
+      "50:23:25:22",
+      "100:0:25:22",
+      "100:23:25:22",
+      "0:0:25:22",
+      "0:23:25:22",
+      "50:0:25:22",
+      "50:23:25:22",
+      "100:0:25:22",
+      "100:23:25:22",
+      "0:0:25:22",
+      "0:23:25:22",
+      "50:0:25:22",
+      "50:23:25:22",
+      "100:0:25:22",
+      "100:23:25:22"
+    ],
+    "sound_list": [
+      "shot1.wav:1",
+      "bomb.wav",
+      "powerup.wav",
+      "addbomb.wav",
+      "getgold.wav",
+      "bomb.wav",
+      "charged.wav"
+    ]
+  },
+  "player5": {
+    "image": {
+      "file": "player5.png",
+      "interval": "3",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "0:0:21:21",
+      "0:22:21:21",
+      "42:0:21:21",
+      "42:22:21:21",
+      "84:0:21:21",
+      "84:22:21:21",
+      "0:0:21:21",
+      "0:22:21:21",
+      "42:0:21:21",
+      "42:22:21:21",
+      "84:0:21:21",
+      "84:22:21:21",
+      "0:0:21:21",
+      "0:22:21:21",
+      "42:0:21:21",
+      "42:22:21:21",
+      "84:0:21:21",
+      "84:22:21:21"
+    ],
+    "sound_list": [
+      "shot2.wav:1",
+      "bomb.wav",
+      "powerup.wav",
+      "addbomb.wav",
+      "getgold.wav",
+      "bomb.wav",
+      "charged.wav"
+    ]
+  },
+  "player6": {
+    "image": {
+      "file": "player6.png",
+      "interval": "3",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "0:0:31:27",
+      "0:28:31:27",
+      "62:0:31:27",
+      "62:28:31:27",
+      "124:0:31:27",
+      "124:28:31:27",
+      "0:0:31:27",
+      "0:28:31:27",
+      "62:0:31:27",
+      "62:28:31:27",
+      "124:0:31:27",
+      "124:28:31:27",
+      "0:0:31:27",
+      "0:28:31:27",
+      "62:0:31:27",
+      "62:28:31:27",
+      "124:0:31:27",
+      "124:28:31:27"
+    ],
+    "sound_list": [
+      "shot1.wav:1",
+      "bomb1.wav",
+      "powerup.wav",
+      "addbomb.wav",
+      "getgold.wav",
+      "bomb.wav",
+      "charged.wav"
+    ]
+  },
+  "playermanager": {
+    "image": {
+      "file": "playermanager.png"
+    },
+    "rect_list": [
+      "0:16:15:13:::6:1",
+      "90:16:14:9",
+      "104:16:16:9",
+      "0:32:256:128",
+      "0:160:80:16",
+      "0:0:16:16:::10:1",
+      "0:368:72:16:::2:1",
+      "144:368:80:16",
+      "0:384:80:16",
+      "80:384:128:16",
+      "0:400:160:60",
+      "160:400:32:16:::2:1",
+      "0:416:80:16",
+      "0:432:168:48",
+      "80:416:42:11",
+      "192:416:40:20",
+      "0:80:160:16",
+      "0:0:0:0:::7:1",
+      "0:176:80:16:::3:12",
+      "0:160:8:16:::10:1",
+      "0:400:16:16:::10:1",
+      "0:80:16:16:::10:1"
+    ]
+  },
+  "playerselect": {
+    "image": {
+      "file": "playerselect.png"
+    },
+    "rect_list": [
+      "1:0:224:130",
+      "0:132:224:130",
+      "0:264:224:130",
+      "226:0:224:130",
+      "226:132:224:130",
+      "226:264:224:130",
+      "0:395:152:112",
+      "153:395:152:112",
+      "306:395:152:112",
+      "459:395:152:112",
+      "306:508:152:112",
+      "459:508:152:112",
+      "483:321:32:48",
+      "451:321:32:48",
+      "451:0:224:320"
+    ],
+    "sound_list": [
+      "select.wav:1",
+      "selected.wav:2",
+      "startselect.wav:0"
+    ]
+  },
+  "psbullet11": {
+    "image": {
+      "file": "psbullet11.png",
+      "interval": "3",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "0:0:16:16:::2:1"
+    ]
+  },
+  "psbullet12": {
+    "image": {
+      "file": "psbullet12.png",
+      "interval": "2",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "0:0:16:16:::7:1"
+    ]
+  },
+  "psbullet13": {
+    "image": {
+      "file": "psbullet13.png",
+      "interval": "2",
+      "count_per_dir": "12"
+    },
+    "rect_list": [
+      "0:0:32:32:::4:3"
+    ]
+  },
+  "psbullet14": {
+    "image": {
+      "file": "psbullet14.png",
+      "interval": "2",
+      "count_per_dir": "12"
+    },
+    "rect_list": [
+      "0:0:64:64:::4:3"
+    ]
+  },
+  "psbullet15": {
+    "image": {
+      "file": "psbullet15.png",
+      "interval": "2",
+      "count_per_dir": "12"
+    },
+    "rect_list": [
+      "0:0:80:80:::4:3"
+    ]
+  },
+  "psbullet31": {
+    "image": {
+      "file": "psbullet31.png",
+      "interval": "1",
+      "count_per_dir": "1"
+    },
+    "rect_list": [
+      "0:0:32:32:::7:1"
+    ]
+  },
+  "psbullet32": {
+    "image": {
+      "file": "psbullet32.png",
+      "interval": "1",
+      "count_per_dir": "1"
+    },
+    "rect_list": [
+      "128:0:32:80:::7:1"
+    ]
+  },
+  "psbullet33": {
+    "image": {
+      "file": "psbullet33.png",
+      "interval": "1",
+      "count_per_dir": "1"
+    },
+    "rect_list": [
+      "0:0:64:128:::7:1"
+    ]
+  },
+  "psbullet41": {
+    "image": {
+      "file": "psbullet41.png",
+      "interval": "1",
+      "count_per_dir": "1"
+    },
+    "rect_list": [
+      "0:0:16:16:::7:1"
+    ]
+  },
+  "psbullet42": {
+    "image": {
+      "file": "psbullet42.png",
+      "interval": "1",
+      "count_per_dir": "2"
+    },
+    "rect_list": [
+      "64:0:16:16",
+      "0:16:16:16"
+    ]
+  },
+  "psbullet421": {
+    "image": {
+      "file": "bbullet3.png"
+    },
+    "rect_list": [
+      "0:16:16:16"
+    ]
+  },
+  "psbullet61": {
+    "image": {
+      "file": "psbullet61.png",
+      "count_per_dir": "4"
+    },
+    "rect_list": [
+      "0:0:16:20:::4:1"
+    ]
+  },
+  "psbullet62": {
+    "image": {
+      "file": "psbullet62.png",
+      "count_per_dir": "4"
+    },
+    "rect_list": [
+      "0:0:16:32:::4:1"
+    ]
+  },
+  "psbullet621": {
+    "image": {
+      "file": "psbullet621.png",
+      "interval": "3",
+      "count_per_dir": "12"
+    },
+    "rect_list": [
+      "0:0:32:32:::9:1",
+      "288:0:48:32:::3:1"
+    ]
+  },
+  "rocket1": {
+    "image": {
+      "file": "rocket1.png",
+      "interval": "3",
+      "count_per_dir": "4"
+    },
+    "rect_list": [
+      "0:0:16:32:::4:1"
+    ]
+  },
+  "rocket2": {
+    "image": {
+      "file": "rocket2.png",
+      "interval": "3",
+      "count_per_dir": "4"
+    },
+    "rect_list": [
+      "0:0:16:32:::4:1"
+    ]
+  },
+  "rocket3": {
+    "image": {
+      "file": "rocket3.png",
+      "interval": "3",
+      "count_per_dir": "4"
+    },
+    "rect_list": [
+      "0:0:16:32:::4:1"
+    ]
+  },
+  "rwing": {
+    "image": {
+      "file": "rwing.png"
+    },
+    "rect_list": [
+      "2:0:39:19"
+    ]
+  },
+  "stagestart": {
+    "image": {
+      "interval": "60",
+      "file": "pass.png"
+    },
+    "rect_list": [
+      "0:0:224:320",
+      "0:0:224:320",
+      "0:0:224:320"
+    ],
+    "sound_list": [
+      "stagestart.wav:0"
+    ]
+  },
+  "tail": {
+    "image": {
+      "file": "tail.png"
+    },
+    "rect_list": [
+      "0:0:102:59"
+    ]
+  },
+  "tank": {
+    "image": {
+      "file": "tank.png"
+    },
+    "rect_list": [
+      "0:0:20:28"
+    ]
+  },
+  "tankb": {
+    "image": {
+      "file": "tankb.png"
+    },
+    "rect_list": [
+      "00:00:32:32:16:16:8:4"
+    ]
+  },
+  "tankbk": {
+    "image": {
+      "file": "tankbk.png",
+      "interval": "1",
+      "count_per_dir": "1"
+    },
+    "rect_list": [
+      "0:0:32:32"
+    ]
+  },
+  "tankblast": {
+    "image": {
+      "file": "tankblast.png",
+      "count_per_dir": "32"
+    },
+    "rect_list": [
+      "0:0:66:74",
+      "71:0:99:100",
+      "176:0:110:117",
+      "294:0:122:131",
+      "426:0:142:163",
+      "578:0:160:195",
+      "0:144:154:216",
+      "174:129:160:223",
+      "351:217:160:198",
+      "532:200:180:203",
+      "0:421:172:190",
+      "270:420:150:198",
+      "452:458:142:148",
+      "622:460:132:143",
+      "29:640:122:132",
+      "191:636:134:134",
+      "327:628:120:140",
+      "475:630:120:150",
+      "619:634:122:138",
+      "0:806:124:118",
+      "155:794:118:116",
+      "287:798:112:108",
+      "413:802:110:106",
+      "541:806:106:102",
+      "673:806:86:100",
+      "144:923:86:82",
+      "248:921:76:80",
+      "334:921:70:81",
+      "416:919:66:76",
+      "506:925:58:74",
+      "580:929:56:70",
+      "662:931:46:64"
+    ],
+    "sound_list": [
+      "blast3.wav:2"
+    ]
+  },
+  "tankh": {
+    "image": {
+      "file": "tankh.png"
+    },
+    "rect_list": [
+      "00:00:32:32:::8:4"
+    ]
+  },
+  "tbullet": {
+    "image": {
+      "file": "tbullet.png"
+    },
+    "rect_list": [
+      "30:0:36:14",
+      "25:62:24:24",
+      "15:0:14:36",
+      "0:62:24:24",
+      "30:15:36:14",
+      "0:37:24:24",
+      "0:0:14:36",
+      "25:37:24:24"
+    ]
+  },
+  "tracer3": {
+    "image": {
+      "file": "tracer3.png",
+      "interval": "3",
+      "count_per_dir": "1"
+    },
+    "rect_list": [
+      "0:0:16:16:::4:4"
+    ]
+  }
+}
